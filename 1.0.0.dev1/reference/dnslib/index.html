@@ -1,0 +1,1274 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://nhairs.github.io/dnslib/latest/reference/dnslib/">
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="bimap/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
+    
+    
+      
+        <title>Index - Dnslib</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#dnslib" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Dnslib" class="md-header__button md-logo" aria-label="Dnslib" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 9a2 2 0 0 1-2-2 2 2 0 0 1 2-2 2 2 0 0 1 2 2 2 2 0 0 1-2 2m13-6H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1M7 19a2 2 0 0 1-2-2 2 2 0 0 1 2-2 2 2 0 0 1 2 2 2 2 0 0 1-2 2m13-6H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Dnslib
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Index
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/nhairs/dnslib" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Dnslib" class="md-nav__button md-logo" aria-label="Dnslib" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 9a2 2 0 0 1-2-2 2 2 0 0 1 2-2 2 2 0 0 1 2 2 2 2 0 0 1-2 2m13-6H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1M7 19a2 2 0 0 1-2-2 2 2 0 0 1 2-2 2 2 0 0 1 2 2 2 2 0 0 1-2 2m13-6H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1Z"/></svg>
+
+    </a>
+    Dnslib
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/nhairs/dnslib" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    API Reference
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            API Reference
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  <span class="md-ellipsis">
+    <code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> dnslib
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            <code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> dnslib
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="bimap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    <code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> bimap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="bit/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    <code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> bit
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="buffer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    <code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> buffer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="client/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    <code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> client
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="digparser/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    <code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> digparser
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="dns/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    <code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> dns
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="label/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    <code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> label
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="lex/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    <code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> lex
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ranges/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    <code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> ranges
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="server/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    <code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> server
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="test_decode/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    <code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> test_decode
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dnslib--from-version-0912-the-master-repository-for-dnslib-has-been-moved-to-github-httpsgithubcompaulcdnslib-please-update-any-links-to-the-original-bitbucket-repository-as-this-will-no-longer-be-maintained" class="md-nav__link">
+    <span class="md-ellipsis">
+      From Version 0.9.12 the master repository for dnslib has been moved to GitHub (https://github.com/paulc/dnslib). Please update any links to the original BitBucket repository as this will no longer be maintained.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dnslib--release-0924-2024-01-02-will-be-the-last-release-supporting-python-27-and-python-37-supporting-old-python-versions-is-increasingly-painful-and-holds-back-adoption-of-new-features-so-its-probably-time-to-move-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      Release 0.9.24 (2024-01-02) will be the last release supporting Python 2.7 and Python &lt;3.7. Supporting old Python versions is increasingly painful and holds back adoption of new features so it's probably time to move on.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dnslib--dnslib" class="md-nav__link">
+    <span class="md-ellipsis">
+      dnslib
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dnslib--classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Classes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dnslib--usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dnslib--changelog" class="md-nav__link">
+    <span class="md-ellipsis">
+      Changelog:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dnslib--license" class="md-nav__link">
+    <span class="md-ellipsis">
+      License:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dnslib--author" class="md-nav__link">
+    <span class="md-ellipsis">
+      Author:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dnslib--master-repositoryissues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Master Repository/Issues:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<div class="doc doc-object doc-module">
+
+
+
+
+<h1 id="dnslib" class="doc doc-heading">
+          <span class="doc doc-object-name doc-module-name">dnslib</span>
+
+
+<a href="#dnslib" class="headerlink" title="Permanent link">🔗</a></h1>
+
+  <div class="doc doc-contents first">
+  
+      <h5 id="dnslib--from-version-0912-the-master-repository-for-dnslib-has-been-moved-to-github-httpsgithubcompaulcdnslib-please-update-any-links-to-the-original-bitbucket-repository-as-this-will-no-longer-be-maintained">From Version 0.9.12 the master repository for <em>dnslib</em> has been moved to GitHub (https://github.com/paulc/dnslib). Please update any links to the original BitBucket repository as this will no longer be maintained.<a class="headerlink" href="#dnslib--from-version-0912-the-master-repository-for-dnslib-has-been-moved-to-github-httpsgithubcompaulcdnslib-please-update-any-links-to-the-original-bitbucket-repository-as-this-will-no-longer-be-maintained" title="Permanent link">🔗</a></h5>
+<h5 id="dnslib--release-0924-2024-01-02-will-be-the-last-release-supporting-python-27-and-python-37-supporting-old-python-versions-is-increasingly-painful-and-holds-back-adoption-of-new-features-so-its-probably-time-to-move-on">Release 0.9.24 (2024-01-02) will be the last release supporting Python 2.7 and Python &lt;3.7. Supporting old Python versions is increasingly painful and holds back adoption of new features so it's probably time to move on.<a class="headerlink" href="#dnslib--release-0924-2024-01-02-will-be-the-last-release-supporting-python-27-and-python-37-supporting-old-python-versions-is-increasingly-painful-and-holds-back-adoption-of-new-features-so-its-probably-time-to-move-on" title="Permanent link">🔗</a></h5>
+<h3 id="dnslib--dnslib">dnslib<a class="headerlink" href="#dnslib--dnslib" title="Permanent link">🔗</a></h3>
+<p>A library to encode/decode DNS wire-format packets supporting both
+Python 2.7 and Python 3.2+.</p>
+<p>The library provides:</p>
+<ul>
+<li>Support for encoding/decoding DNS packets between wire format,
+   python objects, and Zone/DiG textual representation (dnslib.dns)</li>
+</ul>
+<ul>
+<li>A server framework allowing the simple creation of custom DNS
+   resolvers (dnslib.server) and a number of example servers
+   created using this framework</li>
+</ul>
+<ul>
+<li>A number of utilities for testing (dnslib.client, dnslib.proxy,
+   dnslib.intercept)</li>
+</ul>
+<p>Python 3 support was added in Version 0.9.0 which represented a fairly
+major update to the library - the key changes include:</p>
+<ul>
+<li>Python 2.7/3.2+ support (the last version supporting Python 2.6
+   or earlier was version 0.8.3)</li>
+</ul>
+<ul>
+<li>The 'Bimap' interface was changed significantly to explicitly
+   split forward (value-&gt;text) lookups via <strong>getitem</strong> and
+   reverse (text-&gt;value) lookups via <strong>getattr</strong>. Applications
+   using the old interface will need to be updated.</li>
+</ul>
+<ul>
+<li>Hostnames are now returned with a trailing dot by default (in
+   line with RFC)</li>
+</ul>
+<ul>
+<li>Most object attributes are now typed in line with the record
+   definitions to make it harder to generate invalid packets</li>
+</ul>
+<ul>
+<li>Support for encoding/decoding resource records in 'Zone' (BIND)
+   file format</li>
+</ul>
+<ul>
+<li>Support for encoding/decoding packets in 'DiG' format</li>
+</ul>
+<ul>
+<li>Server framework allowing (in most cases) custom resolvers to
+   be created by just subclassing the DNSResolver class and
+   overriding the 'resolve' method</li>
+</ul>
+<ul>
+<li>A lot of fixes to error detection/handling which should make
+   the library much more robust to invalid/unsupported data. The
+   library should now either return a valid DNSRecord instance
+   when parsing a packet or raise DNSError (tested via fuzzing)</li>
+</ul>
+<ul>
+<li>Improved utilities (dnslib.client, dnslib.proxy, dnslib.intercept)</li>
+</ul>
+<ul>
+<li>Improvements to encoding/decoding tests including the ability
+   to generate test data automatically in test_decode.py (comparing
+   outputs against DiG)</li>
+</ul>
+<ul>
+<li>Ability to compare and diff DNSRecords</li>
+</ul>
+<h3 id="dnslib--classes">Classes<a class="headerlink" href="#dnslib--classes" title="Permanent link">🔗</a></h3>
+<p>The key DNS packet handling classes are in dnslib.dns and map to the
+standard DNS packet sections:</p>
+<ul>
+<li>DNSRecord - container for DNS packet. Contains:
+    - DNSHeader
+    - Question section containing zero or more DNSQuestion objects
+    - Answer section containing zero or more RR objects
+    - Authority section containing zero or more RR objects
+    - Additional section containing zero or more RR objects</li>
+<li>DNS RRs (resource records) contain an RR header and an RD object)</li>
+<li>Specific RD types are implemented as subclasses of RD</li>
+<li>DNS labels are represented by a DNSLabel class - in most cases
+   this handles conversion to/from textual representation however
+   does support arbitatry labels via a tuple of bytes objects</li>
+</ul>
+<h3 id="dnslib--usage">Usage<a class="headerlink" href="#dnslib--usage" title="Permanent link">🔗</a></h3>
+<p>To decode a DNS packet:</p>
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; packet = bytes.fromhex(&#39;d5ad818000010005000000000377777706676f6f676c6503636f6d0000010001c00c0005000100000005000803777777016cc010c02c0001000100000005000442f95b68c02c0001000100000005000442f95b63c02c0001000100000005000442f95b67c02c0001000100000005000442f95b93&#39;)
+&gt;&gt;&gt; d = DNSRecord.parse(packet)
+&gt;&gt;&gt; d
+&lt;DNS Header: id=0xd5ad type=RESPONSE opcode=QUERY flags=RD,RA rcode=&#39;NOERROR&#39; q=1 a=5 ns=0 ar=0&gt;
+&lt;DNS Question: &#39;www.google.com.&#39; qtype=A qclass=IN&gt;
+&lt;DNS RR: &#39;www.google.com.&#39; rtype=CNAME rclass=IN ttl=5 rdata=&#39;www.l.google.com.&#39;&gt;
+&lt;DNS RR: &#39;www.l.google.com.&#39; rtype=A rclass=IN ttl=5 rdata=&#39;66.249.91.104&#39;&gt;
+&lt;DNS RR: &#39;www.l.google.com.&#39; rtype=A rclass=IN ttl=5 rdata=&#39;66.249.91.99&#39;&gt;
+&lt;DNS RR: &#39;www.l.google.com.&#39; rtype=A rclass=IN ttl=5 rdata=&#39;66.249.91.103&#39;&gt;
+&lt;DNS RR: &#39;www.l.google.com.&#39; rtype=A rclass=IN ttl=5 rdata=&#39;66.249.91.147&#39;&gt;
+</code></pre></div>
+<p>The default text representation of the DNSRecord is in zone file format:</p>
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; print(d)
+;; -&gt;&gt;HEADER&lt;&lt;- opcode: QUERY, status: NOERROR, id: 54701
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;www.google.com.                IN      A
+;; ANSWER SECTION:
+www.google.com.         5       IN      CNAME   www.l.google.com.
+www.l.google.com.       5       IN      A       66.249.91.104
+www.l.google.com.       5       IN      A       66.249.91.99
+www.l.google.com.       5       IN      A       66.249.91.103
+www.l.google.com.       5       IN      A       66.249.91.147
+</code></pre></div>
+<p>To create a DNS Request Packet:</p>
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; d = DNSRecord.question(&quot;google.com&quot;)
+</code></pre></div>
+<p>(This is equivalent to: d = DNSRecord(q=DNSQuestion("google.com") )</p>
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; d
+&lt;DNS Header: id=... type=QUERY opcode=QUERY flags=RD rcode=&#39;NOERROR&#39; q=1 a=0 ns=0 ar=0&gt;
+&lt;DNS Question: &#39;google.com.&#39; qtype=A qclass=IN&gt;
+
+&gt;&gt;&gt; str(DNSRecord.parse(d.pack())) == str(d)
+True
+
+&gt;&gt;&gt; print(d)
+;; -&gt;&gt;HEADER&lt;&lt;- opcode: QUERY, status: NOERROR, id: ...
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;google.com.                    IN      A
+
+&gt;&gt;&gt; d = DNSRecord.question(&quot;google.com&quot;,&quot;MX&quot;)
+</code></pre></div>
+<p>(This is equivalent to: d = DNSRecord(q=DNSQuestion("google.com",QTYPE.MX) )</p>
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; str(DNSRecord.parse(d.pack())) == str(d)
+True
+
+&gt;&gt;&gt; print(d)
+;; -&gt;&gt;HEADER&lt;&lt;- opcode: QUERY, status: NOERROR, id: ...
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;google.com.                    IN      MX
+</code></pre></div>
+<p>To create a DNS Response Packet:</p>
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; d = DNSRecord(DNSHeader(qr=1,aa=1,ra=1),
+...               q=DNSQuestion(&quot;abc.com&quot;),
+...               a=RR(&quot;abc.com&quot;,rdata=A(&quot;1.2.3.4&quot;)))
+&gt;&gt;&gt; d
+&lt;DNS Header: id=... type=RESPONSE opcode=QUERY flags=AA,RD,RA rcode=&#39;NOERROR&#39; q=1 a=1 ns=0 ar=0&gt;
+&lt;DNS Question: &#39;abc.com.&#39; qtype=A qclass=IN&gt;
+&lt;DNS RR: &#39;abc.com.&#39; rtype=A rclass=IN ttl=0 rdata=&#39;1.2.3.4&#39;&gt;
+&gt;&gt;&gt; str(DNSRecord.parse(d.pack())) == str(d)
+True
+
+&gt;&gt;&gt; print(d)
+;; -&gt;&gt;HEADER&lt;&lt;- opcode: QUERY, status: NOERROR, id: ...
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;abc.com.                       IN      A
+;; ANSWER SECTION:
+abc.com.                0       IN      A       1.2.3.4
+</code></pre></div>
+<p>It is also possible to create RRs from a string in zone file format</p>
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; RR.fromZone(&quot;abc.com IN A 1.2.3.4&quot;)
+[&lt;DNS RR: &#39;abc.com.&#39; rtype=A rclass=IN ttl=0 rdata=&#39;1.2.3.4&#39;&gt;]
+
+(Note: this produces a list of RRs which should be unpacked if being
+passed to add_answer/add_auth/add_ar etc)
+
+&gt;&gt;&gt; q = DNSRecord.question(&quot;abc.com&quot;)
+&gt;&gt;&gt; a = q.reply()
+&gt;&gt;&gt; a.add_answer(*RR.fromZone(&quot;abc.com 60 A 1.2.3.4&quot;))
+&gt;&gt;&gt; print(a)
+;; -&gt;&gt;HEADER&lt;&lt;- opcode: QUERY, status: NOERROR, id: ...
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;abc.com.                       IN      A
+;; ANSWER SECTION:
+abc.com.                60      IN      A       1.2.3.4
+</code></pre></div>
+<p>The zone file can contain multiple entries and supports most of the normal
+format defined in RFC1035 (specifically not $INCLUDE)</p>
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; z = &#39;&#39;&#39;
+...         $TTL 300
+...         $ORIGIN abc.com
+...
+...         @       IN      MX      10  mail.abc.com.
+...         www     IN      A       1.2.3.4
+...                 IN      TXT     &quot;Some Text&quot;
+...         mail    IN      CNAME   www.abc.com.
+... &#39;&#39;&#39;
+&gt;&gt;&gt; for rr in RR.fromZone(textwrap.dedent(z)):
+...     print(rr)
+abc.com.                300     IN      MX      10 mail.abc.com.
+www.abc.com.            300     IN      A       1.2.3.4
+www.abc.com.            300     IN      TXT     &quot;Some Text&quot;
+mail.abc.com.           300     IN      CNAME   www.abc.com.
+</code></pre></div>
+<p>To create a skeleton reply to a DNS query:</p>
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; q = DNSRecord(q=DNSQuestion(&quot;abc.com&quot;,QTYPE.ANY))
+&gt;&gt;&gt; a = q.reply()
+&gt;&gt;&gt; a.add_answer(RR(&quot;abc.com&quot;,QTYPE.A,rdata=A(&quot;1.2.3.4&quot;),ttl=60))
+&gt;&gt;&gt; str(DNSRecord.parse(a.pack())) == str(a)
+True
+&gt;&gt;&gt; print(a)
+;; -&gt;&gt;HEADER&lt;&lt;- opcode: QUERY, status: NOERROR, id: ...
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;abc.com.                       IN      ANY
+;; ANSWER SECTION:
+abc.com.                60      IN      A       1.2.3.4
+</code></pre></div>
+<p>Add additional RRs:</p>
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; a.add_answer(RR(&quot;xxx.abc.com&quot;,QTYPE.A,rdata=A(&quot;1.2.3.4&quot;)))
+&gt;&gt;&gt; a.add_answer(RR(&quot;xxx.abc.com&quot;,QTYPE.AAAA,rdata=AAAA(&quot;1234:5678::1&quot;)))
+&gt;&gt;&gt; str(DNSRecord.parse(a.pack())) == str(a)
+True
+&gt;&gt;&gt; print(a)
+;; -&gt;&gt;HEADER&lt;&lt;- opcode: QUERY, status: NOERROR, id: ...
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;abc.com.                       IN      ANY
+;; ANSWER SECTION:
+abc.com.                60      IN      A       1.2.3.4
+xxx.abc.com.            0       IN      A       1.2.3.4
+xxx.abc.com.            0       IN      AAAA    1234:5678::1
+</code></pre></div>
+<p>It is also possible to create a reply from a string in zone file format:</p>
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; q = DNSRecord(q=DNSQuestion(&quot;abc.com&quot;,QTYPE.ANY))
+&gt;&gt;&gt; a = q.replyZone(&quot;abc.com 60 IN CNAME xxx.abc.com&quot;)
+&gt;&gt;&gt; print(a)
+;; -&gt;&gt;HEADER&lt;&lt;- opcode: QUERY, status: NOERROR, id: ...
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;abc.com.                       IN      ANY
+;; ANSWER SECTION:
+abc.com.                60      IN      CNAME   xxx.abc.com.
+
+&gt;&gt;&gt; str(DNSRecord.parse(a.pack())) == str(a)
+True
+
+&gt;&gt;&gt; q = DNSRecord(q=DNSQuestion(&quot;abc.com&quot;,QTYPE.ANY))
+&gt;&gt;&gt; a = q.replyZone(textwrap.dedent(z))
+&gt;&gt;&gt; print(a)
+;; -&gt;&gt;HEADER&lt;&lt;- opcode: QUERY, status: NOERROR, id: ...
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;abc.com.                       IN      ANY
+;; ANSWER SECTION:
+abc.com.                300     IN      MX      10 mail.abc.com.
+www.abc.com.            300     IN      A       1.2.3.4
+www.abc.com.            300     IN      TXT     &quot;Some Text&quot;
+mail.abc.com.           300     IN      CNAME   www.abc.com.
+</code></pre></div>
+<p>To send a DNSSEC request (EDNS OPT record with DO flag &amp; header AD flag):</p>
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; q = DNSRecord(q=DNSQuestion(&quot;abc.com&quot;,QTYPE.A))
+&gt;&gt;&gt; q.add_ar(EDNS0(flags=&quot;do&quot;,udp_len=4096))
+&gt;&gt;&gt; q.header.ad = 1
+&gt;&gt;&gt; print(q)
+;; -&gt;&gt;HEADER&lt;&lt;- opcode: QUERY, status: NOERROR, id: ...
+;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+;; QUESTION SECTION:
+;abc.com.                       IN      A
+;; ADDITIONAL SECTION:
+;; OPT PSEUDOSECTION
+; EDNS: version: 0, flags: do; udp: 4096
+</code></pre></div>
+<p>Note that when using the library you should always validate the received TXID</p>
+<div class="highlight"><pre><span></span><code>q = DNSRecord.question(&quot;abc.com&quot;)
+a_pkt = q.send(address,port,tcp=args.tcp)
+a = DNSRecord.parse(a_pkt)
+if q.header.id != a.header.id:
+    raise DNSError(&#39;Response transaction id does not match query transaction id&#39;)
+</code></pre></div>
+<p>The library also includes a simple framework for generating custom DNS
+resolvers in dnslib.server (see module docs). In most cases this just
+requires implementing a custom 'resolve' method which receives a question
+object and returns a response.</p>
+<p>A number of sample resolvers are provided as examples (see CLI --help):</p>
+<ul>
+<li>dnslib.fixedresolver    - Respond to all requests with fixed response</li>
+<li>dnslib.zoneresolver     - Respond from Zone file</li>
+<li>dnslib.shellresolver    - Call shell script to generate response</li>
+</ul>
+<p>The library includes a number of client utilities:</p>
+<ul>
+<li>DiG like client library<div class="highlight"><pre><span></span><code>  # python -m dnslib.client --help
+</code></pre></div>
+</li>
+</ul>
+<ul>
+<li>DNS Proxy Server<div class="highlight"><pre><span></span><code>  # python -m dnslib.proxy --help
+</code></pre></div>
+</li>
+</ul>
+<ul>
+<li>Intercepting DNS Proxy Server (replace proxy responses for specified domains)<div class="highlight"><pre><span></span><code>  # python -m dnslib.intercept --help
+</code></pre></div>
+</li>
+</ul>
+<h3 id="dnslib--changelog">Changelog:<a class="headerlink" href="#dnslib--changelog" title="Permanent link">🔗</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a> *   0.1     2010-09-19  Initial Release
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a> *   0.2     2010-09-22  Minor fixes
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a> *   0.3     2010-10-02  Add DNSLabel class to support arbitrary labels (embedded &#39;.&#39;)
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a> *   0.4     2012-02-26  Merge with dbslib-circuits
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a> *   0.5     2012-09-13  Add support for RFC2136 DDNS updates
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>                         Patch provided by Wesley Shields &lt;wxs@FreeBSD.org&gt; - thanks
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a> *   0.6     2012-10-20  Basic AAAA support
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a> *   0.7     2012-10-20  Add initial EDNS0 support (untested)
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a> *   0.8     2012-11-04  Add support for NAPTR, Authority RR and additional RR
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>                         Patch provided by Stefan Andersson (https://bitbucket.org/norox) - thanks
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a> *   0.8.1   2012-11-05  Added NAPTR test case and fixed logic error
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>                         Patch provided by Stefan Andersson (https://bitbucket.org/norox) - thanks
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a> *   0.8.2   2012-11-11  Patch to fix IPv6 formatting
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>                         Patch provided by Torbjorn Lonnemark (https://bitbucket.org/tobbezz) - thanks
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a> *   0.8.3   2013-04-27  Don&#39;t parse rdata if rdlength is 0
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>                         Patch provided by Wesley Shields &lt;wxs@FreeBSD.org&gt; - thanks
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a> *   0.9.0   2014-05-05  Major update including Py3 support (see docs)
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a> *   0.9.1   2014-05-05  Minor fixes
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a> *   0.9.2   2014-08-26  Fix Bimap handling of unknown mappings to avoid exception in printing
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>                         Add typed attributes to classes
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>                         Misc fixes from James Mills - thanks
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a> *   0.9.3   2014-08-26  Workaround for argparse bug which raises AssertionError if [] is
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>                         present in option text (really?)
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a> *   0.9.4   2015-04-10  Fix to support multiple strings in TXT record
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>                         Patch provided by James Cherry (https://bitbucket.org/james_cherry) - thanks
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>                         NOTE: For consistency this patch changes the &#39;repr&#39; output for
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>                               TXT records to always be quoted
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a> *   0.9.5   2015-10-27  Add threading &amp; timeout handling to DNSServer
+<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a> *   0.9.6   2015-10-28  Replace strftime in RRSIG formatting to avoid possible locale issues
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>                         Identified by Bryan Everly - thanks
+<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a> *   0.9.7   2017-01-15  Sort out CAA/TYPE257 DiG parsing mismatch
+<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a> *   0.9.8   2019-02-25  Force DNSKEY key to be bytes object
+<a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a>                         Catch Bimap __wrapped__ attr (used by inspect module in 3.7)
+<a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a> *   0.9.9   2019-03-19  Add support for DNSSEC flag getters/setters (from &lt;raul@dinosec.com&gt; - thanks)
+<a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a>                         Added --dnssec flags to dnslib.client &amp; dnslib.test_decode (sets EDNS0 DO flag)
+<a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a>                         Added EDNS0 support to dnslib.digparser
+<a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a> *   0.9.10  2019-03-24  Fixes to DNSSEC support
+<a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a>                         Add NSEC RR support
+<a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a>                         Add --dnssec flag to dnslib.client &amp; dnslib.test_decode
+<a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a>                         Quote/unquote non-printable characters in DNS labels
+<a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a>                         Update test data
+<a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a>                         (Thanks to &lt;raul@dinosec.com&gt; for help)
+<a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a> *   0.9.11  2019-12-17  Encode NOTIFY Opcode (Issue #26)
+<a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a> *   0.9.12  2019-12-17  Transition master repository to Github (Bitbucket shutting down hg)
+<a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a> *   0.9.13  2020-06-01  Handle truncated requests in server.py (Issue #9)
+<a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a>                         Replace thred.isAlive with thread.is_alive (Deprecated in Py3.9)
+<a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a>                         Merged Pull Request #4 (Extra options for intercept.py) - thanks to @nolanl
+<a id="__codelineno-0-48" name="__codelineno-0-48" href="#__codelineno-0-48"></a> *   0.9.14  2020-06-09  Merged Pull Request #10 (Return doctest status via exit code)
+<a id="__codelineno-0-49" name="__codelineno-0-49" href="#__codelineno-0-49"></a>                         Thanks to @mgorny
+<a id="__codelineno-0-50" name="__codelineno-0-50" href="#__codelineno-0-50"></a> *   0.9.15  2021-05-07  DNSServer fixes - support IPv6 (from Pull Request #21) - thanks to @mikma
+<a id="__codelineno-0-51" name="__codelineno-0-51" href="#__codelineno-0-51"></a>                                         - deamon threads (Pull Request #19) - thanks to @wojons
+<a id="__codelineno-0-52" name="__codelineno-0-52" href="#__codelineno-0-52"></a>                         Add unsupported RR types (Issue #27)
+<a id="__codelineno-0-53" name="__codelineno-0-53" href="#__codelineno-0-53"></a> *   0.9.16  2021-05-07  Merge pull request #23 from Tugzrida/patch-1
+<a id="__codelineno-0-54" name="__codelineno-0-54" href="#__codelineno-0-54"></a>                            Add support for all RR types to NSEC type bitmap
+<a id="__codelineno-0-55" name="__codelineno-0-55" href="#__codelineno-0-55"></a>                         Merge pull request #17 from sunds/issue_16
+<a id="__codelineno-0-56" name="__codelineno-0-56" href="#__codelineno-0-56"></a>                            Issue 16: uncaught exceptions leak open sockets
+<a id="__codelineno-0-57" name="__codelineno-0-57" href="#__codelineno-0-57"></a> *   0.9.18  2022-01-09  Validate TXID in client.py (Issue #30 - thanks to @daniel4x)
+<a id="__codelineno-0-58" name="__codelineno-0-58" href="#__codelineno-0-58"></a> *   0.9.19  2022-01-09  Allow custom log function (logf) in  DNSLogger
+<a id="__codelineno-0-59" name="__codelineno-0-59" href="#__codelineno-0-59"></a>                            (Issue #31 - thanks to @DmitryFrolovTri)
+<a id="__codelineno-0-60" name="__codelineno-0-60" href="#__codelineno-0-60"></a> *   0.9.20  2022-07-17  Fix DeprecationWarnings about invalid escape sequences
+<a id="__codelineno-0-61" name="__codelineno-0-61" href="#__codelineno-0-61"></a>                            (Pull-Request #39 - thanks to @brianmaissy)
+<a id="__codelineno-0-62" name="__codelineno-0-62" href="#__codelineno-0-62"></a>                         Make DNSLabel matchSuffix and stripSuffix case-insensitive
+<a id="__codelineno-0-63" name="__codelineno-0-63" href="#__codelineno-0-63"></a>                            (Pull-Request #37 - thanks to @NiKiZe)
+<a id="__codelineno-0-64" name="__codelineno-0-64" href="#__codelineno-0-64"></a>                         Add support for HTTPS RR
+<a id="__codelineno-0-65" name="__codelineno-0-65" href="#__codelineno-0-65"></a>                            (Pull-Request #35 - thanks to @jkl-caliber)
+<a id="__codelineno-0-66" name="__codelineno-0-66" href="#__codelineno-0-66"></a>                         Fix display of non-printable characters in TXT records
+<a id="__codelineno-0-67" name="__codelineno-0-67" href="#__codelineno-0-67"></a>                            (Issue #32 - thanks to @sbv-csis)
+<a id="__codelineno-0-68" name="__codelineno-0-68" href="#__codelineno-0-68"></a>                         Add --strip-aaaa option to dnslib.proxy
+<a id="__codelineno-0-69" name="__codelineno-0-69" href="#__codelineno-0-69"></a> *   0.9.21  2022-09-19  Minor clean-up / add wheels to distro
+<a id="__codelineno-0-70" name="__codelineno-0-70" href="#__codelineno-0-70"></a> *   0.9.22  2022-09027  Issue #43 (0.9.21 Raises TypeError instead of DNSError when failing to parse HTTPS records)
+<a id="__codelineno-0-71" name="__codelineno-0-71" href="#__codelineno-0-71"></a>                         Note that we just fix the exception - there still seems to be a problem with parsing HTTPS records
+<a id="__codelineno-0-72" name="__codelineno-0-72" href="#__codelineno-0-72"></a>                         (Thanks to @robinlandstrom)
+<a id="__codelineno-0-73" name="__codelineno-0-73" href="#__codelineno-0-73"></a> *   0.9.23  2022-10-28  Issue #43: HTTPS reads after RD end (thanks to @robinlandstrom for pull request)
+<a id="__codelineno-0-74" name="__codelineno-0-74" href="#__codelineno-0-74"></a>                         Issue #45: Dnslib fails to handle unknown RR types in NSEC RD type bitmap
+<a id="__codelineno-0-75" name="__codelineno-0-75" href="#__codelineno-0-75"></a>                            Bimap now supports a function to map unknown types which we use to
+<a id="__codelineno-0-76" name="__codelineno-0-76" href="#__codelineno-0-76"></a>                            dynamically map from rtype &lt;-&gt; TYPExxxx for unknown record types
+<a id="__codelineno-0-77" name="__codelineno-0-77" href="#__codelineno-0-77"></a>                            RR zone representation updated to match RFC3597
+<a id="__codelineno-0-78" name="__codelineno-0-78" href="#__codelineno-0-78"></a>                         Pull Request #47: Add support for DS, SSHFP, and TLSA records (thanks to @rmbolger)
+<a id="__codelineno-0-79" name="__codelineno-0-79" href="#__codelineno-0-79"></a> *   0.9.24  2024-01-02  Merge multiple PRs
+<a id="__codelineno-0-80" name="__codelineno-0-80" href="#__codelineno-0-80"></a>                            #49 - Generate README.md (via symlink)
+<a id="__codelineno-0-81" name="__codelineno-0-81" href="#__codelineno-0-81"></a>                            #51 - Update Github CI checkout &amp; setup-python actions (and remove Python 2.7 CI support)
+<a id="__codelineno-0-82" name="__codelineno-0-82" href="#__codelineno-0-82"></a>                                  (thanks to @SpencerIsGiddy)
+<a id="__codelineno-0-83" name="__codelineno-0-83" href="#__codelineno-0-83"></a>                            #54 - Support for RP records (thanks to @ryan-gang)
+<a id="__codelineno-0-84" name="__codelineno-0-84" href="#__codelineno-0-84"></a>                            #57 - Support for LOC records (thanks to @valentinesd)
+<a id="__codelineno-0-85" name="__codelineno-0-85" href="#__codelineno-0-85"></a>                         (Note that this will be the last release supporting Python 2.7 and Python &lt;3.7)
+</code></pre></div>
+<h3 id="dnslib--license">License:<a class="headerlink" href="#dnslib--license" title="Permanent link">🔗</a></h3>
+<p>BSD</p>
+<h3 id="dnslib--author">Author:<a class="headerlink" href="#dnslib--author" title="Permanent link">🔗</a></h3>
+<ul>
+<li>PaulC</li>
+</ul>
+<h3 id="dnslib--master-repositoryissues">Master Repository/Issues:<a class="headerlink" href="#dnslib--master-repositoryissues" title="Permanent link">🔗</a></h3>
+<ul>
+<li>https://github.com/paulc/dnslib</li>
+</ul>
+<p>(Note: https://bitbucket.org/paulc/dnslib has been deprecated and will not be updated)</p>
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; Dnslib Contributors</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/paulc/dnslib" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.sections", "navigation.indexes", "navigation.expand", "navigation.top", "content.code.annotate", "content.code.copy", "toc.follow"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>
