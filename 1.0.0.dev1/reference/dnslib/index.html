@@ -1042,7 +1042,7 @@ mail.abc.com.           300     IN      CNAME   www.abc.com.
 ;; OPT PSEUDOSECTION
 ; EDNS: version: 0, flags: do; udp: 4096
 </code></pre></div>
-<p>Note that when using the library you should always validate the received TXID</p>
+<p>Note that when using the library you should always validate the received TXID </p>
 <div class="highlight"><pre><span></span><code>q = DNSRecord.question(&quot;abc.com&quot;)
 a_pkt = q.send(address,port,tcp=args.tcp)
 a = DNSRecord.parse(a_pkt)

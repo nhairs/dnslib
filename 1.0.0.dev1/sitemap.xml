@@ -2,97 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/reference/dnslib/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/reference/dnslib/bimap/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/reference/dnslib/bit/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/reference/dnslib/buffer/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/reference/dnslib/client/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/reference/dnslib/digparser/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/reference/dnslib/dns/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/reference/dnslib/label/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/reference/dnslib/lex/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/reference/dnslib/ranges/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/reference/dnslib/server/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/reference/dnslib/test_decode/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/reference/dnslib/servers/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/reference/dnslib/servers/fixedresolver/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/reference/dnslib/servers/intercept/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/reference/dnslib/servers/proxy/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/reference/dnslib/servers/shellresolver/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nhairs.github.io/dnslib/latest/reference/dnslib/servers/zoneresolver/</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
